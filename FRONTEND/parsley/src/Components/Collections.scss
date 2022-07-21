@@ -1,8 +1,56 @@
 .collection {
-    width: 950px;
-    height: 450px;
+    box-sizing: border-box;
+    // width: 950px;
     border-radius: 30px;
     background-color: #fff;
     box-shadow: 4px 4px 20px 3px rgba(0,0,0,0.15);
-    margin-right: 20px;
+    // margin-right: 20px;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .userName {
+        // display: flex;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 44px;
+        margin-left: 30px;
+    }
+    .goFarm {
+        display: flex;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: #628D54;
+        width: 80.85px;
+        height: 24px;
+        margin-top: 44px;
+        margin-right: 30px;
+        color: #f3f3f3;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// .userName {
+//     display: flex;
+//     font-size: 20px;
+//     font-weight: bold;
+//     margin-top: 44px;
+//     margin-left: 30px;
+// }
+
+// .goFarm {
+//     display: flex;
+//     font-size: 12px;
+//     border-radius: 50px;
+//     background-color: #628D54;
+//     width: 80.85px;
+//     height: 24px;
+//     margin-top: 44px;
+//     margin-left: 30px;
+//     color: #f3f3f3;
+//     align-items: center;
+//     justify-content: center;
+// }

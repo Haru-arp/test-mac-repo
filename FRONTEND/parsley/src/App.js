@@ -7,7 +7,7 @@ import Home from './Components/Home'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container vh-100">
       <Navbar />
       <Home />
     </div>

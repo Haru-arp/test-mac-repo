@@ -1,8 +1,14 @@
 $theme-colors: (
     "sub1" : #8EC281,
-    "sub2" : #628D54,
+    "main" : #628D54,
+    "sub2" : #496548,
+    "font1" : #333333,
+    "font2" : #84898c,
+    "font3" : #F3F3F3,
+    "Extra1" : #F0E2D0,
+    "Extra2" : #AA8976,
     "info": #6667ab,
-    "danger": teal
+    "danger": teal,
 );
 
 @import "~bootstrap/scss/bootstrap";
