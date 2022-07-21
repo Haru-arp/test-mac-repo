@@ -1,0 +1,18 @@
+@import "../custom.scss";
+
+*{
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 240px;
+    .contents {
+        display: flex;
+        margin-top: 70px;
+        margin-bottom: 110px;    
+    }   
+}

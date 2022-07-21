@@ -1,0 +1,35 @@
+@import "../custom.scss";
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');   
+header {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 240px;
+    
+    .logo{
+        font-family: 'Titan One', cursive;
+        font-size: 36px;
+    }
+    .btngroup{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        .btn-sub2 {
+            color: #F3F3F3;
+            border-radius: 50px;
+            font-size: 14px;
+        }
+
+        .magicon {
+            font-size: 30px;
+        }
+
+        .menuicon {
+            font-size: 40px;
+        }
+
+    }
+}
+
