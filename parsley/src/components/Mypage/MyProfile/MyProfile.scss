@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300;400;500;700&display=swap'); 
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.myprofile {
+  width: 67%;
+  height: 300px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 4px 4px 20px 3px rgba(0,0,0,0.1);
+  display: flex;
+  position: relative;
+  .imgprofile {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50px;
+    margin-right: 40px; 
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    .name {
+      .name-header {
+        font-size: 16px;
+        color: #84898C;
+      }
+      .name-username {
+        font-size: 20px;
+        color: #333;
+      }
+    }
+    .email {
+      .email-header {
+        font-size: 16px;
+        color: #84898C;
+      }
+      .email-address {
+        font-size: 20px;
+        color: #333;
+      }
+    }
+    .message {
+      .message-header {
+        font-size: 16px;
+        color: #84898C;
+      }
+      .message-p {
+        font-size: 20px;
+        color: #333;
+      }
+    }
+  }
+  .btn-complex {
+    position: absolute;
+    bottom: 30px; 
+    right: 30px;
+
+    .btn-cancel {
+      background-color: #8EC281;
+      color: #f3f3f3;
+      padding: 9px 41px;
+      border-radius: 50px;
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+      margin-right: 20px;
+    }
+
+    .btn-cancel:hover {
+      background-color: #639d54;
+    }
+
+    .btn-edit {
+      background-color: #628D54;
+      color: #f3f3f3;
+      padding: 9px 17px;
+      border-radius: 50px;
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    }
+
+    .btn-edit:hover {
+      background-color: rgb(85, 117, 77);
+    }
+
+    .btn-save {
+      background-color: #628D54;
+      color: #f3f3f3;
+      padding: 9px 17px;
+      border-radius: 50px;
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    }
+  }
+}

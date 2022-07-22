@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');  
+
+* {
+  font-family:'Noto Sans KR', sans-serif;
+}
+
+.widget-container {
+  width: 100%;
+  height: 80px;
+  background-color: #25262D;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+  .date-widget {
+    color: #F3F3F3;
+    font-size: 20px;
+  }
+
+  .dday {
+    color: #F3F3F3;
+    font-size: 20px;
+    margin-right: 25px;
+  }
+}

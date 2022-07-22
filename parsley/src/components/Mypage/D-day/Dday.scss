@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300;400;500;700&display=swap'); 
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.dday-container {
+  width: 33%;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 4px 4px 20px 3px rgba(0,0,0,0.1);
+  padding: 30px;
+  position: relative;
+  .dday-date {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .dday-content {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333;
+  }
+
+  .dday-dday{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold; 
+    color: #333;
+  }
+  .dday-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #628D54;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    padding: 9px 18px;
+    border-radius: 50px;
+    i {
+      font-size: 24px;
+      color: #f3f3f3;
+      margin-right: 3px;
+      line-height: 20px;
+    }
+    span {
+      color: #F3F3F3;
+    }
+  }
+  .dday-btn:hover {
+    background-color: #48693e;
+  }
+}

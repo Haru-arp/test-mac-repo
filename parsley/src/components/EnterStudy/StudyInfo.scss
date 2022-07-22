@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300;400;500;700&display=swap'); 
+
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.study-container {
+  display: flex;
+  gap: 90px;
+  margin-bottom: 80px;
+  .study-image {
+    width: 540px;
+    height: 540px;
+    border: 4px solid #8EC281;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+  }
+  
+  .study-contents {
+    .study-header {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    .study-membernum {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 25px;
+    }
+
+    .study-hash {
+      margin-bottom: 50px;
+      span {
+        font-size: 22px;
+        font-weight: normal;
+        margin-bottom: 48px;
+        background-color: #8EC281;
+        color: #f3f3f3;
+        border-radius: 10px;
+        padding: 3px 5px;
+        margin-right: 5px;
+      }
+    }
+
+    .study-rule {
+
+      .rule-header {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .rule-list {
+        color: #333;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 100px;
+        li{
+          list-style: none;
+        }
+      }
+    }
+
+    .button-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .enter-btn {
+        color: #fff;
+        background-color: #628D54;
+        font-size: 18px;
+        padding: 12px 34px;
+        border-radius: 50px;
+      }
+
+      .link-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        color: #333;
+        border-radius: 50px; 
+      }
+
+      .like-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        color: rgb(243, 87, 87);
+        border-radius: 50px; 
+      }
+      .like-btn-click {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        color: rgb(243, 87, 87);
+        border-radius: 50px; 
+      }
+    }
+  }
+}
