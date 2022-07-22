@@ -1,0 +1,41 @@
+.studyroom {
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px 3px rgba(0,0,0,0.1);
+  border-radius: 30px;
+  border: 4px solid #628D54;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  margin-bottom: 30px;
+  .tabs {
+    position: absolute;
+    top: -49px;
+    left: 40px;
+    .box{
+      display: flex;
+      cursor: pointer;
+      list-style: none;
+      font-size: 18px;
+      gap: 10px;
+    }
+    button{
+      width: 120px;
+      line-height: 48px;
+    }
+    .is-active {
+      background-color: #628D54;
+      color: #f3f3f3;
+      border-radius: 15px 15px 0 0;
+      height: 45px;
+      
+    }
+    .no-active {
+      background-color: #3b5731;
+      color: #a0a0a0;
+      border-radius: 15px 15px 0 0;
+      height: 45px;
+    }
+  }
+
+}
