@@ -9,6 +9,7 @@
 nav {
   height: 100px;
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
@@ -21,6 +22,10 @@ nav {
     display: flex;
     align-items: center;
     gap: 25px;
+
+    .noti-icon{
+      font-size: 30px;
+    }
 
     .make-study-btn {
       color: #F3F3F3;

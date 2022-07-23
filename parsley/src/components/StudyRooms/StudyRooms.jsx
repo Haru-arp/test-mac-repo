@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import StudyRoom from './StudyRoom';
 import './Studyrooms.scss';
 
 function StudyRooms() {
@@ -14,7 +15,7 @@ function StudyRooms() {
           <div className={activeIndex===0 ? "is-active" : "no-active"} onClick={()=>tabClickHandler(0)}> 전체 공부방 </div>
       ),
       tabCont:(
-          <div> 전체 공부방 </div>
+          <StudyRoom />
       )
   },
   {

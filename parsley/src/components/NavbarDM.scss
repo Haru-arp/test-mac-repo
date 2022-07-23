@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300;400;500;700&display=swap'); 
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.noti-container {
+    width: 33%;
+    height: 350px;
+    position: absolute;
+    top: 70px;
+    right: -210px;
+    background-color: #f3f3f3;
+}
+

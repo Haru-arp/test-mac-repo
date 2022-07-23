@@ -2,7 +2,7 @@ import './Home.scss'
 
 import Collection from "../components/Collections"
 import Ranking from "../components/Ranking"
-import StudyRooms from "../components/StudyRooms"
+import StudyRooms from "../components/StudyRooms/StudyRooms"
 
 function Home() {
   return(
