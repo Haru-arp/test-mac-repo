@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+.logo {
+  font-family: 'Titan One', cursive;
+  font-size: 36px;
+  display: flex;
+  position: relative;
+
+  .logo-img {
+    position: absolute;
+    width: 20%;
+    top: -10px;
+    right: -20px;
+  }
+}

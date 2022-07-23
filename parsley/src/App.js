@@ -32,9 +32,14 @@ function App() {
             <Route path="/enterstudy" element={<EnterStudy />} />
             <Route path="/farm" element={<Farmpage />} />
           </Routes>
-
+          
         </div>
   );
 }
 
 export default App;
+
+
+<Navbar>
+
+</Navbar>

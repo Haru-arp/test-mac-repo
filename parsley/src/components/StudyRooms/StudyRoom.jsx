@@ -1,8 +1,9 @@
 import './StudyRoom.scss'
+import { Link } from 'react-router-dom'
 
 function StudyRoom() { 
     return (
-        <div className="studyroom-container">
+        <Link to='/enterstudy' className="studyroom-container">
             <div className="studyroom-like">
                 <i class='bx bx-heart'></i>
             </div>
@@ -22,7 +23,7 @@ function StudyRoom() {
                     3명
                 </div>
             </div>
-        </div>
+        </Link>
 
     )
 }

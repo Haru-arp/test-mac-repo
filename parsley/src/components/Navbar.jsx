@@ -4,6 +4,7 @@ import './LogoutOffcanvas'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import NavbarDM from './NavbarDM';
+import Logo from './Logo';
 
 function Navbar({openSidebar}) {
 
@@ -15,7 +16,9 @@ function Navbar({openSidebar}) {
   return (
     <>
     <nav className="container mx-auto">
-      <Link to='/' className="logo">PARSLEY</Link>
+      <Link to='/' className="logo">
+        <Logo />
+      </Link>
       {openDrop ? <NavbarDM /> : null}
       <div className="btn-group">
         <button onClick={openDm} className="noti-icon">

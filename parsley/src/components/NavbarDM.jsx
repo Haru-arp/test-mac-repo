@@ -1,13 +1,22 @@
 import './NavbarDM.scss'
+import moment from "moment"
+import "moment/locale/ko"
+
 
 function NavbarDM() {
     return (
         <div className="noti-container">
-            
-                드롭메뉴 들어갈 자리
-            
-        </div>
-        
+            <div className="noti-header">
+                <div className="noti-today">
+                    {moment().format("YYYY. M. D (ddd)")}
+                </div>
+                <button className="noti-deletebtn">모두 지우기</button>
+            </div>
+            <div className="noti-title">
+                알림
+            </div>
+
+        </div>       
     )
 
 }

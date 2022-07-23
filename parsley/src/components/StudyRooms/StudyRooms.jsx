@@ -2,6 +2,7 @@ import { useState } from 'react';
 import StudyRoom from './StudyRoom';
 import './Studyrooms.scss';
 
+
 function StudyRooms() {
   const [activeIndex, setActiveIndex] = useState(0);
 
